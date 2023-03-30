@@ -7,4 +7,5 @@ Rコンソール上で以下のように実行してください
 
 ```R
 > library(shiny)
-> runGitHub("budgeting-support-system", "raccoon-control-DSS"
+> runGitHub("budgeting-support-system", "raccoon-control-DSS")
+```
