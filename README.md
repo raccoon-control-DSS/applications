@@ -1,22 +1,9 @@
-# アライグマ防除における意思決定支援システムのアプリケーションリポジトリ
-以下の２つのアプリケーションを公開しています。
-
-・フィージビリティスタディからの防除費用試算DSS（budgeting-support-system）
-
-・捕獲数評価のDSS（control-evaluation-system）
+# アライグマ防除におけるフィージビリティスタディからの防除費用試算DSS
 
 ## アプリケーションの実行方法
 R及び必要なRパッケージ（shiny, ggplot2, etc）をインストールの上、
 Rコンソール上で以下のように実行してください
 
-・フィージビリティスタディからの防除費用試算DSS（budgeting-support-system）
 ```R
 > library(shiny)
-> runGitHub("apps", "raccoon-control-DSS", subdir= "budgeting-support-system/code")
-```
-
-・フィージビリティスタディからの防除費用試算DSS（budgeting-support-system）
-```R
-> library(shiny)
-> runGitHub("apps", "raccoon-control-DSS", subdir= "control-evaluation-system/code")
-```
+> runGitHub("budgeting-support-system", "raccoon-control-DSS"
