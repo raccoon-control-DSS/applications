@@ -8,9 +8,10 @@ R及び必要なRパッケージ（shiny, ggplot2, etc）をインストール�
 Rコンソール上で以下のように実行してください
 
 ・フィージビリティスタディからの防除費用試算DSS（budgeting-support-system）
-> library(shiny)
-> runGitHub("applications", "raccoon-control-DSS", subdir= "budgeting-support-system")
+library(shiny)
+runGitHub("applications", "raccoon-control-DSS", subdir= "budgeting-support-system")
+
 
 ・フィージビリティスタディからの防除費用試算DSS（budgeting-support-system）
-> library(shiny)
-> runGitHub("applications", "raccoon-control-DSS", subdir= "control-evaluation-system")
+library(shiny)
+runGitHub("applications", "raccoon-control-DSS", subdir= "control-evaluation-system")
