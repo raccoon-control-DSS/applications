@@ -12,11 +12,11 @@ Rコンソール上で以下のように実行してください
 ・フィージビリティスタディからの防除費用試算DSS（budgeting-support-system）
 ```R
 > library(shiny)
-> runGitHub("applications", "raccoon-control-DSS", subdir= "budgeting-support-system")
+> runGitHub("apps", "raccoon-control-DSS", subdir= "budgeting-support-system/code")
 ```
 
 ・フィージビリティスタディからの防除費用試算DSS（budgeting-support-system）
 ```R
 > library(shiny)
-> runGitHub("applications", "raccoon-control-DSS", subdir= "control-evaluation-system")
+> runGitHub("apps", "raccoon-control-DSS", subdir= "control-evaluation-system/code")
 ```
