@@ -6,6 +6,6 @@ R及び必要なRパッケージ（shiny, ggplot2, etc）をインストール�
 Rコンソール上で以下のように実行してください
 
 ```R
-> library(shiny)
-> runGitHub("budgeting-support-system", "raccoon-control-DSS")
+library(shiny)
+runGitHub("budgeting-support-system", "raccoon-control-DSS")
 ```
